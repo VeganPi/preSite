@@ -1,8 +1,10 @@
 PreSite::Application.routes.draw do
-  
+
+  get "about" => 'pages#about'  
+
   root :to => 'pages#home'
 
-  get "about" => 'pages#about'
+
   
   # this is set up as 'controller#action'
   
